@@ -46,7 +46,11 @@ public class DOMParserDemo {
                    .getElementsByTagName("grade")
                    .item(0)
                    .getTextContent());
-                
+               System.out.println("Marks : " 
+                   + eElement
+                   .getElementsByTagName("marks")
+                   .item(0)
+                   .getTextContent());
                
             }
          }
