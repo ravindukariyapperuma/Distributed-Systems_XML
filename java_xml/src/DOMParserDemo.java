@@ -41,6 +41,13 @@ public class DOMParserDemo {
              
                // TODO: add code to print the grade and marks
                
+               System.out.println("Grade : " 
+                   + eElement
+                   .getElementsByTagName("grade")
+                   .item(0)
+                   .getTextContent());
+                
+               
             }
          }
       } catch (Exception e) {
