@@ -13,6 +13,9 @@
 						<xsl:value-of select="@symbol"/>
 					</symbol>
 					<!-- to do: Add code to output the price extracted from the investments.xlm file to the output stocks.xml file -->
+					<price>
+						<xsl:value-of select="@price"/>
+					</price>
 					
 				</stock>
 			</xsl:for-each>
