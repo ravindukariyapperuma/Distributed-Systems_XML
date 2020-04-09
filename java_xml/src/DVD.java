@@ -16,7 +16,7 @@ public class DVD {
 			movie = (Movie)object;
 			// to do: modify the following line to print the movie year as well
 			// seperated by a space after the name
-			movies += movie.getName()+ ", ";
+			movies += movie.getName()+ " " + movie.getReleased() + ", ";
 		}
 		return movies; 
 	}	
