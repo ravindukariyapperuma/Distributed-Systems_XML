@@ -12,6 +12,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>Title</th>
         <th>Artist</th>
         <!-- to do: input a price column header -->
+        <th>Price</th>
         
       </tr>
       <xsl:for-each select="catalog/cd">
@@ -19,6 +20,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <td><xsl:value-of select="title"/></td>
           <td><xsl:value-of select="artist"/></td>
           <!-- to do: extract the price values from the input xml -->
+          <td><xsl:value-of select="price"/></td>
           
         </tr>
       </xsl:for-each>
